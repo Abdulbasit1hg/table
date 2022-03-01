@@ -1,0 +1,120 @@
+.hero_section{
+    background-color: #D5E4B6;
+    padding-bottom: 100px;
+}
+
+.slider{
+    background-image: url(../imges/tometos_group.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    .slider_list{
+        display: flex;
+        flex-direction: column;
+
+        .slider_item{
+            padding: 100px 64px;
+        }
+    }
+}
+
+.slider_link{
+    padding: 14px 36px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #76A713;
+    border: 1px solid #76A713;
+    text-decoration: none;
+    font-family:  sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: flex-start;
+    text-transform: uppercase;
+}
+
+.slider_wrap{
+    display: flex;
+    flex-direction: column;
+    max-width: 473px;
+
+    .slider_small{
+        order: -1;
+        font-size: 50px;
+        line-height: 64px;
+        color: #76A713;
+        font-weight: 500;
+        font-family: 'Oswald';
+        text-transform: uppercase;
+    }
+}
+
+.slider_wrap h1{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.wrap_container{
+    position: relative;
+    top: -100px;
+    width: 1170px;
+    background-color: #FFFFFF;
+    border: 2px solid grey;
+    margin: 0 auto;
+
+    .inside-wrap_box__lists{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 70px 0; 
+
+        .inside-wrap_box__item{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+}
+
+.inside-box_item__text{
+    padding: 17px 20px;
+    border-right: 2px solid rgb(167, 164, 164);
+
+
+    .title{
+        font-family: 'Oswald';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 6px 0;
+        padding: 0;
+    }
+
+    .wrap_text{
+        font-family: 'Gilroy';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        color: #666666;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+.border-none{
+    border: none;
+}
+
+
+
